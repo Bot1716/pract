@@ -1,0 +1,15 @@
+1's comp of 8bit
+
+LDA 2200H 
+CMA 
+STA 2300H 
+HLT
+
+
+2's comp
+
+LDA 2200 H 
+CMA 
+ADI 01H 
+STA 2300H 
+HLT
