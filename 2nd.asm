@@ -1,0 +1,17 @@
+LXI H, 2009
+MOV A, M
+INX H
+ADD M
+INX H 
+MOV M, A 
+HLT
+
+
+LXI H, 2009
+MOV A, M
+INX H
+ADD M
+DAA 
+INX H 
+MOV M, A 
+HLT
